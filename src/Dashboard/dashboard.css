@@ -1,0 +1,13 @@
+.dash{
+    margin-top: 50px;
+    height: 400px;
+    border: 1px solid rgb(175, 172, 172);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
