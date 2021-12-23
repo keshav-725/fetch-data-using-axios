@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react";
-import $ from 'jquery';
-import "./profile.css"
+import React from "react";
 import shopping_cart from "../image/shopping-cart.webp"
-import "./profile.css"
+import "./Main.css"
 
 const Profile = () => {
     return (
