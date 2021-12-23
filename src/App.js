@@ -4,13 +4,14 @@ import Profile from "./Profile/Profile"
 import Menu from "./Menu/index"
 import Dashboard from "./Dashboard/Dahboard"
 import { BrowserRouter, Route, Switch } from "react-router-dom"
+import Nav from './Nav/Nav';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Menu />
+        <Nav />
         <Switch>
           <Route exact path="/home" component={Profile} />
           <Route path="/dashboard" render={(props) => (

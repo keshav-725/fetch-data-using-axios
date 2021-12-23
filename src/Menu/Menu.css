@@ -3,19 +3,40 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 200px;
     margin-top: 50px;
     z-index: 10;
     float: left;
 }
 .menu>a{
-    
     margin-left: 15px;
     text-decoration: none;
-    color: black;
+    color: #556e79;
     margin-bottom: 20px;
-    width: 50px;
     height: 50px;
-    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu>a {position: relative;}
+.menu>a::before {font-size: 30px;}
+.menu>a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 65%;
+    transform: translateX(-50%);
+    width: 3px;
+    background: #556e79;
+    height: 55px;
+}
+.noline::after{
+    display: none !important;
+}
+.itemname{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
 

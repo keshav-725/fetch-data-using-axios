@@ -1,7 +1,7 @@
 import "./Menu.css";
-import React, { lazy, Suspense } from "react";
-import { NavLink, Link } from "react-router-dom"
-import { FaHome, FaGraduationCap, FaIdBadge } from "react-icons/fa"
+import React from "react";
+import { NavLink} from "react-router-dom"
+import { FaHome, FaGraduationCap, FaIdBadge ,FaDotCircle} from "react-icons/fa"
 import { CgProfile } from "react-icons/cg"
 
 function template() {
@@ -12,37 +12,38 @@ function template() {
         to="/home"
         activeStyle={{
           fontWeight: "bold",
-          backgroundColor: "rgb(240, 252, 252)"
+          color: "green"
         }}
-      ><FaHome size="2rem" /></NavLink>
+      ><FaDotCircle size="1rem" /><div className="itemname">Workshop</div></NavLink>
       <NavLink
         to="/dashboard"
         activeStyle={{
           fontWeight: "bold",
-          backgroundColor: "rgb(240, 252, 252)"
+          color: "green"
         }}
-      ><FaIdBadge size="2rem" /></NavLink>
+      ><FaDotCircle size="1rem" /><div className="itemname">Event</div></NavLink>
       <NavLink
         to="/home1"
         activeStyle={{
           fontWeight: "bold",
-          backgroundColor: "rgb(240, 252, 252)"
+          color: "green"
         }}
-      ><FaGraduationCap size="2rem" /></NavLink>
+      ><FaDotCircle size="1rem" /><div className="itemname">Shop</div></NavLink>
       <NavLink
         to="/home2"
         activeStyle={{
           fontWeight: "bold",
-          backgroundColor: "rgb(240, 252, 252)"
+          color: "green"
         }}
-      ><CgProfile size="2rem" /></NavLink>
+      ><FaDotCircle size="1rem" /><div className="itemname">Young Leaders</div></NavLink>
       <NavLink
+      className="noline"
         to="/home3"
         activeStyle={{
           fontWeight: "bold",
-          backgroundColor: "rgb(240, 252, 252)"
+          color: "green"
         }}
-      ><FaIdBadge size="2rem" /></NavLink>
+      ><FaDotCircle size="1rem"/><div className="itemname">Young Minds</div></NavLink>
     </div>
   );
 };

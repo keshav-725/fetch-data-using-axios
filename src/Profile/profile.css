@@ -1,57 +1,8 @@
-.footer{
+.Profile{
     float: none;
-    margin-top: 50px;
-    text-align: right;
+    margin-top: 60px;
 }
-.footer>div{
+.Profile>div{
     margin-right: 10px;
     font-size: larger;
-}
-.dashboard{
-    margin-bottom: 20px;
-}
-.session,.postings,.dashboard{
-    border: 1px solid rgb(175, 172, 172);
-    border-radius: 7px;
-    padding: 15px;
-}
-.dashbord-bg{
-    background-color: rgb(240, 252, 252);
-    margin-bottom: 7px;
-    margin-left: 5px;
-    border: 1px solid rgb(240, 252, 252);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-}
-.dashbord-bg div{
-    color: rgb(9, 146, 146);
-    font-size: 25px;
-    font-weight: 600;
-    margin-right: 20px;
-}
-.session_info{
-    margin-top: 20px;
-}
-.bgBlue{
-    padding: 8px;
-    background-color: rgb(240, 252, 252);
-    border-radius: 5px;
-}
-.Mentorship{
-    background-color: rgb(99, 163, 163);
-    border: 1px white solid;
-    padding: 5px;
-    border-radius: 10px;
-}
-.Review{
-    background-color: rgb(160, 114, 160);
-    border: 1px white solid;
-    padding: 5px 10px 5px 10px;
-    border-radius: 10px;
-}
-button{
-    border: none;
 }
